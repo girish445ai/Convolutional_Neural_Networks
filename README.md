@@ -1,5 +1,17 @@
 # Convolutional_Neural_Networks
 
+## PART B: Fine-tuning a pre-trained model:
+
+* ### How to run the code: 
+
+* Step 1: 
+
+Run all the code until  pretrain function and then the sweep command to observe the sweeps . 
+
+* Step2: 
+
+For evaluating the best model  on the test dataset, DONOT run the pretrain function and sweep command and go to the Optimal pre train function and run the code from that function . 
+
 ## PART C:Using a pre-trained model as it is:
 * The pre-trained Yolov4 model has been used for object identification on a video. YOLO stands for ‘you only look once’ and YOLOv4 is the 4th addition to the family of YOLO object detector models. It is a milestone model which solidified YOLO’s name and position in the computer vision field.The Yolov4 has the higher frame rate when compared to its previous models . It also shows better accuracy rates .
 * For the purpose of the YOLOv4 object detection, we will be making use of its pre-trained model weights on Google Colab. The pre-trained model was trained on the MS-COCO dataset which is a dataset of 80 classes engulfing day-to-day objects. This dataset is widely used to establish a benchmark for the purposes of detection and classification. 
