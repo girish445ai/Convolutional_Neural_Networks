@@ -44,7 +44,8 @@ Set the parameters of the best model in best={} and execute the training model a
 The best model had 32 filters in first layer so they are visulaised as 4 x 8 in wandb. 
 
 * Q4 d) Guided back-propagation
-The guided backprogation is applied on 10 neurons from CONV5 layer for a random image. The output 2x5 is stored in wandb
+The guided backprogation is applied on 10 neurons from CONV5 layer for a random image. The output 2x5 is stored in wandb.
+For any given pretrain model the last part of the code can be copied and executed.
  
 
 ## PART B: Fine-tuning a pre-trained model:
