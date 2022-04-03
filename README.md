@@ -1,27 +1,25 @@
 # Convolutional_Neural_Networks
 ## PART A: 
 
-* ### How to run the code: 
-
 * Q2) The hyperparameters of the CNN are
-- Data augmentation       : True, False
-- Batch normalization     : True, False
-- Filters in first layer  : 32, 64
-- Filter organization     : 0.5, 1, 2
-- Droprate                : 0, 0.2, 0.3
-- Kernel size             : 3, 5, 7
-- Nodes in dense layer    : 32, 64, 128
+Data augmentation       : True, False
+Batch normalization     : True, False
+Filters in first layer  : 32, 64
+Filter organization     : 0.5, 1, 2
+Droprate                : 0, 0.2, 0.3
+Kernel size             : 3, 5, 7
+Nodes in dense layer    : 32, 64, 128
 To sweep through the parameters and run the model, set config=sweep_config and run the commands.The method can be set as random, grid or bayes.
 
 * Q4 a)Run test data
 Set the parameters of the best model in best={} and execute the training model and test it with test_data and output test accuracy and test loss is captured in wandb
-- Data augmentation       : True
-- Batch normalization     : True
-- Filters in first layer  : 32
-- Filter organization     : 2
-- Droprate                : 0.2
-- Kernel size             : 3
-- Nodes in dense layer    : 128
+Data augmentation       : True
+Batch normalization     : True
+Filters in first layer  : 32
+Filter organization     : 2
+Droprate                : 0.2
+Kernel size             : 3
+Nodes in dense layer    : 128
 Validation accuracy = 0.2917
 Test accuracy = 0.3780
 
